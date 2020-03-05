@@ -18,7 +18,5 @@ int main(int argc, char *argv[]) {
       exit(EXIT_FAILURE);
    }
 
-   printf("hooray fux ya\n");
-
    return 0;
 }
