@@ -9,6 +9,10 @@
 
    calling it catty for funsies and shit. also too lazy to remove cat from PATH
 
+   phase 1: just read and output one file
+
+   phase 2: do it for multiple arguments when calling program
+
    @author Steve Choo
 */
 int main(int argc, char *argv[]) {
