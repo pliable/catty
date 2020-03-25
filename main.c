@@ -22,7 +22,7 @@
 */
 
 //maybe return int to denote success or failure?
-int print_file(FILE* filePtr);
+int print_file_to_stdout(FILE* filePtr);
 int main(int argc, char* argv[]) {
    FILE* fp;
    int i;
@@ -41,14 +41,14 @@ int main(int argc, char* argv[]) {
          continue;
       }
       
-      print_file(fp);
+      print_file_to_stdout(fp);
    }
 
    //why not
    return 0;
 }
 
-int print_file(FILE* filePtr) {
+int print_file_to_stdout(FILE* filePtr) {
    int character;
 
    while((character = fgetc(filePtr)) != EOF) {
